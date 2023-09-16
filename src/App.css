@@ -1,0 +1,38 @@
+.navbar-link {
+  margin: 0px 0px 0px 20px;
+}
+
+.scrolled-navbar {
+  background: white;
+  transition: background-color 0.5s ease;
+}
+
+.not-scrolled-navbar {
+  background: #7E64B4;
+  transition: background-color 0.5s ease;
+}
+
+.checklist {
+  list-style-type: none;
+  /* Remove default list-style (bullet points) */
+  padding-left: 0;
+  /* Remove default left padding for the list */
+}
+
+.checklist li::before {
+  content: "\2713";
+  color: #7E64B4;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.btn-primary {
+  border: 1px solid #C2C2C2 !important;
+  background-color: #7E64B4 !important;
+}
+
+.btn-primary:hover {
+  color: #7E64B4 !important;
+  background-color: white!important;
+  border-color: #7E64B4 !important;
+}
